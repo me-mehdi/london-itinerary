@@ -179,11 +179,38 @@
         }
         
         @media (max-width: 600px) {
+            .hero {
+                padding: 3rem 1rem;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .container {
+                padding: 1rem;
+            }
+            .trip-details {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1.5rem;
+            }
+            .day-header {
+                padding: 1rem;
+            }
+            .day-header h2 {
+                font-size: 1.1rem;
+            }
+            .schedule {
+                padding: 1rem;
+            }
             .time-block {
                 flex-direction: column;
             }
             .time {
                 margin-bottom: 0.25rem;
+                flex: 0 0 auto;
             }
             .activity {
                 border-left: none;
@@ -191,6 +218,9 @@
             }
             .activity::before {
                 display: none;
+            }
+            .optional-activities {
+                padding: 1rem;
             }
         }
     </style>
