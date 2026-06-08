@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itinéraire du Séjour en Famille & Remise des Diplômes à Londres</title>
     <style>
         :root {
-            --primary: #1e3a8a; /* Deep Blue */
-            --secondary: #dc2626; /* Deep Red */
+            --primary: #1e3a8a;
+            /* Deep Blue */
+            --secondary: #dc2626;
+            /* Deep Red */
             --background: #f8fafc;
             --surface: #ffffff;
             --text-main: #0f172a;
             --text-muted: #64748b;
-            --accent: #f59e0b; /* Gold/Amber */
+            --accent: #f59e0b;
+            /* Gold/Amber */
         }
-        
+
         * {
             box-sizing: border-box;
             margin: 0;
@@ -39,7 +43,7 @@
         .hero h1 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .hero p {
@@ -78,7 +82,7 @@
         .day-card {
             background: var(--surface);
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
             margin-bottom: 1.5rem;
             overflow: hidden;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -86,7 +90,7 @@
 
         .day-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .day-header {
@@ -105,7 +109,7 @@
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .special-day .day-header {
             background: var(--accent);
             color: #78350f;
@@ -131,7 +135,7 @@
             color: var(--primary);
             font-size: 0.95rem;
         }
-        
+
         .special-day .time {
             color: #d97706;
         }
@@ -177,59 +181,73 @@
         .optional-item:last-child {
             margin-bottom: 0;
         }
-        
+
         @media (max-width: 600px) {
             .hero {
                 padding: 3rem 1rem;
             }
+
             .hero h1 {
                 font-size: 1.8rem;
             }
+
             .hero p {
                 font-size: 1rem;
             }
+
             .container {
                 padding: 1rem;
             }
+
             .trip-details {
                 flex-direction: column;
                 gap: 1rem;
                 padding: 1.5rem;
             }
+
             .day-header {
                 padding: 1rem;
             }
+
             .day-header h2 {
                 font-size: 1.1rem;
             }
+
             .schedule {
                 padding: 1rem;
             }
+
             .time-block {
                 flex-direction: column;
             }
+
             .time {
                 margin-bottom: 0.25rem;
                 flex: 0 0 auto;
             }
+
             .activity {
                 border-left: none;
                 padding-left: 0;
             }
+
             .activity::before {
                 display: none;
             }
+
             .optional-activities {
                 padding: 1rem;
             }
         }
     </style>
 </head>
+
 <body>
 
     <header class="hero">
         <h1>🇬🇧 Séjour en Famille & Remise des Diplômes à Londres</h1>
-        <p>Un itinéraire sur-mesure, adapté aux seniors, pensé pour le confort, les célébrations et la création de souvenirs inoubliables.</p>
+        <p>Un itinéraire sur-mesure, adapté aux seniors, pensé pour le confort, les célébrations et la création de
+            souvenirs inoubliables.</p>
     </header>
 
     <main class="container">
@@ -244,7 +262,10 @@
             </div>
             <div class="detail-item">
                 <strong>Hébergement</strong>
-                <span><a href="https://www.google.com/maps/search/?api=1&query=Green%20Lanes%2C%20Stoke%20Newington%20N16%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Green Lanes, Stoke Newington (N16)</a></span>
+                <span><a href="https://www.google.com/maps/search/?api=1&query=Green%20Lanes%2C%20Stoke%20Newington%20N16%20London"
+                        target="_blank"
+                        style="color: var(--primary); text-decoration: underline; font-weight: 500;">Green Lanes, Stoke
+                        Newington (N16)</a></span>
             </div>
             <div class="detail-item">
                 <strong>Réservations Spéciales</strong>
@@ -260,15 +281,26 @@
             <div class="schedule">
                 <div class="time-block">
                     <div class="time">14:00 – 15:30</div>
-                    <div class="activity">Arrivée à l'<a href="https://www.google.com/maps/search/?api=1&query=a%C3%A9roport%20de%20Londres%20Stansted" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">aéroport de Londres Stansted</a> et trajet vers l'appartement sur Green Lanes.</div>
+                    <div class="activity">Arrivée à l'<a
+                            href="https://www.google.com/maps/search/?api=1&query=a%C3%A9roport%20de%20Londres%20Stansted"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">aéroport de
+                            Londres Stansted</a> et trajet vers l'appartement sur Green Lanes.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">15:30 – 18:30</div>
-                    <div class="activity">Installation à l'appartement. Laissez tout le monde défaire ses bagages, s'installer, reposer ses jambes après le vol et profiter d'une tasse de thé sur votre terrasse privée.</div>
+                    <div class="activity">Installation à l'appartement. Laissez tout le monde défaire ses bagages,
+                        s'installer, reposer ses jambes après le vol et profiter d'une tasse de thé sur votre terrasse
+                        privée.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">18:30 – 21:00</div>
-                    <div class="activity">Faites une promenade très douce et plate le soir dans <a href="https://www.google.com/maps/search/?api=1&query=Stoke%20Newington%20Church%20Street%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Stoke Newington Church Street</a> (à quelques minutes seulement). La rue est bordée de magnifiques restaurants locaux—choisissez celui qui vous plaît pour un dîner de bienvenue.</div>
+                    <div class="activity">Faites une promenade très douce et plate le soir dans <a
+                            href="https://www.google.com/maps/search/?api=1&query=Stoke%20Newington%20Church%20Street%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Stoke Newington
+                            Church Street</a> (à quelques minutes seulement). La rue est bordée de magnifiques
+                        restaurants locaux—choisissez celui qui vous plaît pour un dîner de bienvenue.</div>
                 </div>
             </div>
         </div>
@@ -285,15 +317,32 @@
                 </div>
                 <div class="time-block">
                     <div class="time">11:00 – 12:30</div>
-                    <div class="activity">Promenez-vous sur les magnifiques terrains totalement plats de l'<a href="https://www.google.com/maps/search/?api=1&query=Old%20Royal%20Naval%20College%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Old Royal Naval College</a> et admirez de l'extérieur le navire historique <a href="https://www.google.com/maps/search/?api=1&query=Cutty%20Sark%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Cutty Sark</a>.</div>
+                    <div class="activity">Promenez-vous sur les magnifiques terrains totalement plats de l'<a
+                            href="https://www.google.com/maps/search/?api=1&query=Old%20Royal%20Naval%20College%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Old Royal Naval
+                            College</a> et admirez de l'extérieur le navire historique <a
+                            href="https://www.google.com/maps/search/?api=1&query=Cutty%20Sark%20London" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Cutty Sark</a>.
+                    </div>
                 </div>
                 <div class="time-block">
                     <div class="time">12:30 – 14:00</div>
-                    <div class="activity">Direction le <a href="https://www.google.com/maps/search/?api=1&query=march%C3%A9%20de%20Greenwich%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">marché de Greenwich</a> (Entrée gratuite). Trouvez une table confortable et laissez chacun choisir parmi divers stands de street food internationale chaude.</div>
+                    <div class="activity">Direction le <a
+                            href="https://www.google.com/maps/search/?api=1&query=march%C3%A9%20de%20Greenwich%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">marché de
+                            Greenwich</a> (Entrée gratuite). Trouvez une table confortable et laissez chacun choisir
+                        parmi divers stands de street food internationale chaude.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">14:00 – 15:30</div>
-                    <div class="activity">Faites une promenade lente sur les chemins plats du <a href="https://www.google.com/maps/search/?api=1&query=parc%20de%20Greenwich%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">parc de Greenwich</a>. Asseyez-vous sur les bancs du parc, admirez les jardins fleuris et profitez de l'espace ouvert.</div>
+                    <div class="activity">Faites une promenade lente sur les chemins plats du <a
+                            href="https://www.google.com/maps/search/?api=1&query=parc%20de%20Greenwich%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">parc de
+                            Greenwich</a>. Asseyez-vous sur les bancs du parc, admirez les jardins fleuris et profitez
+                        de l'espace ouvert.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">15:30 – 17:00</div>
@@ -318,23 +367,47 @@
                 </div>
                 <div class="time-block">
                     <div class="time">12:00 – 13:30</div>
-                    <div class="activity">Voyage vers Westminster. Marchez sur le <a href="https://www.google.com/maps/search/?api=1&query=pont%20de%20Westminster%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">pont de Westminster</a> pour la photo de famille ultime avec <a href="https://www.google.com/maps/search/?api=1&query=Big%20Ben%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Big Ben</a> et les <a href="https://www.google.com/maps/search/?api=1&query=Maisons%20du%20Parlement%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Maisons du Parlement</a> en arrière-plan. Faites une promenade plate devant la magnifique façade de l'<a href="https://www.google.com/maps/search/?api=1&query=abbaye%20de%20Westminster%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">abbaye de Westminster</a>.</div>
+                    <div class="activity">Voyage vers Westminster. Marchez sur le <a
+                            href="https://www.google.com/maps/search/?api=1&query=pont%20de%20Westminster%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">pont de
+                            Westminster</a> pour la photo de famille ultime avec <a
+                            href="https://www.google.com/maps/search/?api=1&query=Big%20Ben%20London" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Big Ben</a> et
+                        les <a href="https://www.google.com/maps/search/?api=1&query=Maisons%20du%20Parlement%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Maisons du
+                            Parlement</a> en arrière-plan. Faites une promenade plate devant la magnifique façade de
+                        l'<a href="https://www.google.com/maps/search/?api=1&query=abbaye%20de%20Westminster%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">abbaye de
+                            Westminster</a>.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">13:30 – 15:00</div>
-                    <div class="activity">Installez-vous pour un déjeuner copieux et détendu dans un café traditionnel ou un restaurant près de Westminster.</div>
+                    <div class="activity">Installez-vous pour un déjeuner copieux et détendu dans un café traditionnel
+                        ou un restaurant près de Westminster.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">15:00 – 17:00</div>
-                    <div class="activity">Retour à l'appartement pour que tout le monde puisse faire une sieste et se changer avec de beaux vêtements pour l'événement du soir.</div>
+                    <div class="activity">Retour à l'appartement pour que tout le monde puisse faire une sieste et se
+                        changer avec de beaux vêtements pour l'événement du soir.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">17:30 – 18:00</div>
-                    <div class="activity">Rendez-vous au bâtiment <a href="https://www.google.com/maps/search/?api=1&query=Walkie%20Talkie%2020%20Fenchurch%20St%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">"Walkie Talkie" (20 Fenchurch St)</a>.</div>
+                    <div class="activity">Rendez-vous au bâtiment <a
+                            href="https://www.google.com/maps/search/?api=1&query=Walkie%20Talkie%2020%20Fenchurch%20St%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">"Walkie Talkie"
+                            (20 Fenchurch St)</a>.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">18:00 – 19:30</div>
-                    <div class="activity">🌟 <a href="https://www.google.com/maps/search/?api=1&query=SKY%20GARDEN%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">SKY GARDEN</a> (Réservation confirmée !) Montez 35 étages pour profiter des spectaculaires jardins botaniques intérieurs et des vues panoramiques au coucher du soleil sur toute la ville.</div>
+                    <div class="activity">🌟 <a
+                            href="https://www.google.com/maps/search/?api=1&query=SKY%20GARDEN%20London" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">SKY GARDEN</a>
+                        (Réservation confirmée !) Montez 35 étages pour profiter des spectaculaires jardins botaniques
+                        intérieurs et des vues panoramiques au coucher du soleil sur toute la ville.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">19:45 – 21:30</div>
@@ -355,15 +428,35 @@
                 </div>
                 <div class="time-block">
                     <div class="time">10:00 – 11:45</div>
-                    <div class="activity">💂‍♂️ Cérémonie de la Relève de la Garde du Roi. Arrivez un peu en avance pour vous tenir le long de <a href="https://www.google.com/maps/search/?api=1&query=The%20Mall%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">The Mall</a> ou près du <a href="https://www.google.com/maps/search/?api=1&query=Palais%20St.%20James%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Palais St. James</a>. Votre famille verra la fanfare militaire complète et la Garde du Roi défiler juste devant eux. (La cérémonie officielle commence à 11h00).</div>
+                    <div class="activity">💂‍♂️ Cérémonie de la Relève de la Garde du Roi. Arrivez un peu en avance pour
+                        vous tenir le long de <a
+                            href="https://www.google.com/maps/search/?api=1&query=The%20Mall%20London" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">The Mall</a> ou
+                        près du <a href="https://www.google.com/maps/search/?api=1&query=Palais%20St.%20James%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Palais St.
+                            James</a>. Votre famille verra la fanfare militaire complète et la Garde du Roi défiler
+                        juste devant eux. (La cérémonie officielle commence à 11h00).</div>
                 </div>
                 <div class="time-block">
                     <div class="time">11:45 – 13:30</div>
-                    <div class="activity">Marchez directement vers le <a href="https://www.google.com/maps/search/?api=1&query=parc%20St.%20James%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">parc St. James</a> juste à côté. Promenez-vous sur les chemins plats au bord du lac pour voir les célèbres pélicans résidents, puis arrêtez-vous au café au bord du lac pour le déjeuner.</div>
+                    <div class="activity">Marchez directement vers le <a
+                            href="https://www.google.com/maps/search/?api=1&query=parc%20St.%20James%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">parc St.
+                            James</a> juste à côté. Promenez-vous sur les chemins plats au bord du lac pour voir les
+                        célèbres pélicans résidents, puis arrêtez-vous au café au bord du lac pour le déjeuner.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">13:30 – 15:00</div>
-                    <div class="activity">Promenade lente à travers <a href="https://www.google.com/maps/search/?api=1&query=Hyde%20Park%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Hyde Park</a> pour voir le magnifique <a href="https://www.google.com/maps/search/?api=1&query=lac%20Serpentine%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">lac Serpentine</a>.</div>
+                    <div class="activity">Promenade lente à travers <a
+                            href="https://www.google.com/maps/search/?api=1&query=Hyde%20Park%20London" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Hyde Park</a>
+                        pour voir le magnifique <a
+                            href="https://www.google.com/maps/search/?api=1&query=lac%20Serpentine%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">lac
+                            Serpentine</a>.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">15:00 – 17:00</div>
@@ -379,7 +472,10 @@
         <!-- Day 5 -->
         <div class="day-card">
             <div class="day-header">
-                <h2>📅 Jour 5: Mardi 16 Juin – <a href="https://www.google.com/maps/search/?api=1&query=Tower%20Bridge%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Bridge</a> & La Marina</h2>
+                <h2>📅 Jour 5: Mardi 16 Juin – <a
+                        href="https://www.google.com/maps/search/?api=1&query=Tower%20Bridge%20London" target="_blank"
+                        style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Bridge</a> &
+                    La Marina</h2>
             </div>
             <div class="schedule">
                 <div class="time-block">
@@ -388,11 +484,30 @@
                 </div>
                 <div class="time-block">
                     <div class="time">11:30 – 13:00</div>
-                    <div class="activity">Direction <a href="https://www.google.com/maps/search/?api=1&query=Tower%20Hill%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Hill</a>. Marchez le long des immenses murs de pierre de la <a href="https://www.google.com/maps/search/?api=1&query=Tour%20de%20Londres" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tour de Londres</a> (de l'extérieur) et prenez des photos sur l'emblématique <a href="https://www.google.com/maps/search/?api=1&query=Tower%20Bridge%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Bridge</a>.</div>
+                    <div class="activity">Direction <a
+                            href="https://www.google.com/maps/search/?api=1&query=Tower%20Hill%20London" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Hill</a>.
+                        Marchez le long des immenses murs de pierre de la <a
+                            href="https://www.google.com/maps/search/?api=1&query=Tour%20de%20Londres" target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tour de
+                            Londres</a> (de l'extérieur) et prenez des photos sur l'emblématique <a
+                            href="https://www.google.com/maps/search/?api=1&query=Tower%20Bridge%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower
+                            Bridge</a>.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">13:00 – 15:00</div>
-                    <div class="activity">Marchez vers <a href="https://www.google.com/maps/search/?api=1&query=St%20Katharine%20Docks%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">St Katharine Docks</a>, une marina cachée juste à côté de <a href="https://www.google.com/maps/search/?api=1&query=Tower%20Bridge%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Bridge</a>. C'est complètement plat, paisible et bordé de fantastiques restaurants pour déjeuner au bord de l'eau.</div>
+                    <div class="activity">Marchez vers <a
+                            href="https://www.google.com/maps/search/?api=1&query=St%20Katharine%20Docks%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">St Katharine
+                            Docks</a>, une marina cachée juste à côté de <a
+                            href="https://www.google.com/maps/search/?api=1&query=Tower%20Bridge%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower
+                            Bridge</a>. C'est complètement plat, paisible et bordé de fantastiques restaurants pour
+                        déjeuner au bord de l'eau.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">15:30 – 17:30</div>
@@ -413,35 +528,42 @@
             <div class="schedule">
                 <div class="time-block">
                     <div class="time">08:30 – 10:30</div>
-                    <div class="activity">Matinée paisible à l'appartement. Mettez de la musique, prenez le petit-déjeuner et repassez vos vêtements de cérémonie.</div>
+                    <div class="activity">Matinée paisible à l'appartement. Mettez de la musique, prenez le
+                        petit-déjeuner et repassez vos vêtements de cérémonie.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">11:30 – 12:15</div>
-                    <div class="activity">Rendez-vous au <a href="https://www.google.com/maps/search/?api=1&query=Barbican%20Centre%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Barbican Centre</a>.</div>
+                    <div class="activity">Rendez-vous au <a
+                            href="https://www.google.com/maps/search/?api=1&query=Barbican%20Centre%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Barbican
+                            Centre</a>.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">12:15 – 13:30</div>
-                    <div class="activity">Récupérez votre toge et votre coiffe officielles de Master Ravensbourne. Prenez de magnifiques photos de famille ensemble autour des célèbres cours au bord du lac du Barbican.</div>
+                    <div class="activity">Récupérez votre toge et votre coiffe officielles de Master Ravensbourne.
+                        Prenez de magnifiques photos de famille ensemble autour des célèbres cours au bord du lac du
+                        Barbican.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">13:30 – 14:00</div>
-                    <div class="activity">Installation de la famille à leurs sièges invités dans l'auditorium principal.</div>
+                    <div class="activity">Installation de la famille à leurs sièges invités dans l'auditorium principal.
+                    </div>
                 </div>
                 <div class="time-block">
                     <div class="time">14:00 – 14:30</div>
-                    <div class="activity">🎓 La Cérémonie de Remise des Diplômes de Master commence. Regardez fièrement pendant que vous traversez la scène !</div>
+                    <div class="activity">🎓 La Cérémonie de Remise des Diplômes de Master commence. Regardez fièrement
+                        pendant que vous traversez la scène !</div>
                 </div>
                 <div class="time-block">
                     <div class="time">14:30 – 17:30</div>
-                    <div class="activity">Célébrations post-cérémonie, photos infinies avec votre certificat de diplôme, et retour de la toge.</div>
+                    <div class="activity">Célébrations post-cérémonie, photos infinies avec votre certificat de diplôme,
+                        et retour de la toge.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">17:30 – 18:30</div>
-                    <div class="activity">Voyage de retour à l'appartement pour se détendre, déposer vos certificats et vous rafraîchir pour la soirée.</div>
-                </div>
-                <div class="time-block">
-                    <div class="time">19:30 – 22:00</div>
-                    <div class="activity">Le Grand Dîner de Célébration ! Choisissez un restaurant spécial selon vos goûts pour trinquer à cette incroyable étape académique.</div>
+                    <div class="activity">Voyage de retour à l'appartement pour se détendre, déposer vos certificats et
+                        vous rafraîchir pour la soirée.</div>
                 </div>
             </div>
         </div>
@@ -449,20 +571,34 @@
         <!-- Day 7 -->
         <div class="day-card">
             <div class="day-header">
-                <h2>📅 Jour 7: Jeudi 18 Juin – Culture & Musique de rue à <a href="https://www.google.com/maps/search/?api=1&query=Covent%20Garden%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Covent Garden</a></h2>
+                <h2>📅 Jour 7: Jeudi 18 Juin – Culture & Musique de rue à <a
+                        href="https://www.google.com/maps/search/?api=1&query=Covent%20Garden%20London" target="_blank"
+                        style="color: var(--primary); text-decoration: underline; font-weight: 500;">Covent Garden</a>
+                </h2>
             </div>
             <div class="schedule">
                 <div class="time-block">
                     <div class="time">10:00 – 12:30</div>
-                    <div class="activity">Visitez le <a href="https://www.google.com/maps/search/?api=1&query=British%20Museum%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">British Museum</a> (Entrée gratuite). La magnifique cour principale et le rez-de-chaussée sont complètement plats et adaptés aux seniors. Voyez la pierre de Rosette et les momies égyptiennes sans monter d'escaliers.</div>
+                    <div class="activity">Visitez le <a
+                            href="https://www.google.com/maps/search/?api=1&query=British%20Museum%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">British
+                            Museum</a> (Entrée gratuite). La magnifique cour principale et le rez-de-chaussée sont
+                        complètement plats et adaptés aux seniors. Voyez la pierre de Rosette et les momies égyptiennes
+                        sans monter d'escaliers.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">13:00 – 15:00</div>
-                    <div class="activity">Direction la place de <a href="https://www.google.com/maps/search/?api=1&query=Covent%20Garden%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Covent Garden</a> pour déjeuner en terrasse extérieure d'un restaurant.</div>
+                    <div class="activity">Direction la place de <a
+                            href="https://www.google.com/maps/search/?api=1&query=Covent%20Garden%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Covent
+                            Garden</a> pour déjeuner en terrasse extérieure d'un restaurant.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">15:00 – 16:30</div>
-                    <div class="activity">Asseyez-vous sur la place du marché et profitez des chanteurs d'opéra et des artistes de rue de classe mondiale qui jouent de la musique tous les jours sur la place.</div>
+                    <div class="activity">Asseyez-vous sur la place du marché et profitez des chanteurs d'opéra et des
+                        artistes de rue de classe mondiale qui jouent de la musique tous les jours sur la place.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">17:00 – 18:30</div>
@@ -483,11 +619,21 @@
             <div class="schedule">
                 <div class="time-block">
                     <div class="time">10:00 – 12:30</div>
-                    <div class="activity">Emmenez la famille vivre l'expérience traditionnelle de l'Afternoon Tea britannique (scones avec crème caillée, gâteaux, petits sandwichs et thé) dans un salon de thé classique.</div>
+                    <div class="activity">Emmenez la famille vivre l'expérience traditionnelle de l'Afternoon Tea
+                        britannique (scones avec crème caillée, gâteaux, petits sandwichs et thé) dans un salon de thé
+                        classique.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">13:00 – 15:30</div>
-                    <div class="activity">Faites une marche lente le long de <a href="https://www.google.com/maps/search/?api=1&query=Regent%20Street%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Regent Street</a> et <a href="https://www.google.com/maps/search/?api=1&query=Piccadilly%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Piccadilly</a> pour acheter des chocolats britanniques, des souvenirs et des cadeaux à emballer pour le vol de retour.</div>
+                    <div class="activity">Faites une marche lente le long de <a
+                            href="https://www.google.com/maps/search/?api=1&query=Regent%20Street%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Regent
+                            Street</a> et <a href="https://www.google.com/maps/search/?api=1&query=Piccadilly%20London"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">Piccadilly</a>
+                        pour acheter des chocolats britanniques, des souvenirs et des cadeaux à emballer pour le vol de
+                        retour.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">16:00 – 18:30</div>
@@ -508,7 +654,8 @@
             <div class="schedule">
                 <div class="time-block">
                     <div class="time">08:30 – 09:45</div>
-                    <div class="activity">Dernier petit-déjeuner ensemble à l'appartement et vérification que tous les passeports et bagages sont emballés.</div>
+                    <div class="activity">Dernier petit-déjeuner ensemble à l'appartement et vérification que tous les
+                        passeports et bagages sont emballés.</div>
                 </div>
                 <div class="time-block">
                     <div class="time">09:45</div>
@@ -516,23 +663,36 @@
                 </div>
                 <div class="time-block">
                     <div class="time">10:00</div>
-                    <div class="activity">Départ vers l'<a href="https://www.google.com/maps/search/?api=1&query=a%C3%A9roport%20de%20Londres%20Stansted" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">aéroport de Londres Stansted</a> pour le vol de retour au Maroc.</div>
+                    <div class="activity">Départ vers l'<a
+                            href="https://www.google.com/maps/search/?api=1&query=a%C3%A9roport%20de%20Londres%20Stansted"
+                            target="_blank"
+                            style="color: var(--primary); text-decoration: underline; font-weight: 500;">aéroport de
+                            Londres Stansted</a> pour le vol de retour au Maroc.</div>
                 </div>
             </div>
         </div>
 
         <div class="optional-activities">
             <h3>🎟️ Activités Optionnelles avec Billet</h3>
-            <p style="margin-bottom: 1rem; color: var(--text-muted);">(À ajouter si la famille a de l'énergie supplémentaire)</p>
+            <p style="margin-bottom: 1rem; color: var(--text-muted);">(À ajouter si la famille a de l'énergie
+                supplémentaire)</p>
             <div class="optional-item">
-                <strong>Le <a href="https://www.google.com/maps/search/?api=1&query=London%20Eye" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">London Eye</a> (Idéal l'après-midi du Jour 3):</strong> Admirez toute la ville depuis une capsule en verre climatisée se déplaçant lentement, en restant assis confortablement.
+                <strong>Le <a href="https://www.google.com/maps/search/?api=1&query=London%20Eye" target="_blank"
+                        style="color: var(--primary); text-decoration: underline; font-weight: 500;">London Eye</a>
+                    (Idéal l'après-midi du Jour 3):</strong> Admirez toute la ville depuis une capsule en verre
+                climatisée se déplaçant lentement, en restant assis confortablement.
             </div>
             <div class="optional-item">
-                <strong>Croisière sur la Tamise (Idéal l'après-midi du Jour 5):</strong> Un tour en bateau avec montées et descentes libres depuis <a href="https://www.google.com/maps/search/?api=1&query=Tower%20Pier%20London" target="_blank" style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Pier</a> jusqu'à Westminster. Une excellente façon pour les parents de faire du tourisme sans marcher.
+                <strong>Croisière sur la Tamise (Idéal l'après-midi du Jour 5):</strong> Un tour en bateau avec montées
+                et descentes libres depuis <a
+                    href="https://www.google.com/maps/search/?api=1&query=Tower%20Pier%20London" target="_blank"
+                    style="color: var(--primary); text-decoration: underline; font-weight: 500;">Tower Pier</a> jusqu'à
+                Westminster. Une excellente façon pour les parents de faire du tourisme sans marcher.
             </div>
         </div>
 
     </main>
 
 </body>
+
 </html>
